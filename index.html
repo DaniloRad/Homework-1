@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <div class="task_1">
+        <nav>
+<a href="#task_2">Zadatak 2</a>
+<a href="#task_3">Zadatak 3</a>
+<a href="#task_4">Zadatak 4</a>
+
+
+
+        </nav>
+</div>
+<div id="task_2" >
+<h1>CV</h1>
+<h2>Danilo Radovic</h2>
+<ul>
+
+   <li> Opste <br> <img src="slikacv.jpg" width="200" height="240" style="position: relative;" alt="slikacv">
+    <p >Moje ime je <strong>Danilo Radovic</strong>. Imam 19 godina. Rodjen sam u <a href="http://www.danilovgrad.me/">Danilovgradu.</a>  </p>
+   </li>
+    <li>Obrazovanje
+    <p>Zavrsio sam osnovnu skolu u Spuzu. Srednju skolu gimnaziju u <br> Danilovgradu i nastavio svoje obrazovanje na UCG PMF smjer racunarske nauke.</p>
+  </li>  <li>Lista programskih jezika
+    <ol type="a">
+    
+    <li>Java</li>
+    <li>Paskal</li>
+    </ol>
+</li>
+</ul>
+
+</div>
+<div id="task_3">
+<table border="1" >
+    <caption > <b> Omiljeni filmovi</b></caption>
+    <tr>
+<th>
+    Ime filma
+</th>
+<th>
+       Kratak opis
+</th>
+    <th>
+          Žanr filma
+    </th>
+    <th>
+            Datum izlaska
+     </th>
+        <th>
+               Cover slika
+        </th>
+            <th>
+                   Link
+            </th>
+</tr>
+<tr>
+    <td>Harry Potter and the Sorcerer's Stone</td>
+    <td>An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself,<br> his family and the terrible evil that haunts the magical world.</td>
+    <td>Adventure, Family, Fantasy</td>
+    <td>2001</td>
+    <td> <img src="hp1.jpg" alt="hp1" width="100" height="100"> </td>
+    <td> <a href="https://www.imdb.com/title/tt0241527/?ref_=nv_sr_1" target="_blank" >IMBD</a> </td>
+   
+</tr>
+<tr>
+        <td>Harry Potter and the Prisoner of Azkaban</td>
+        <td>It's Harry's third year at Hogwarts; not only does he have a new "Defense Against the Dark Arts" teacher,<br> but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.</td>
+        <td>Adventure, Family, Fantasy</td>
+        <td>2004</td>
+        <td> <img src="hp2.jpg" alt="hp2" width="100" height="100"> </td>
+        <td> <a href="https://www.imdb.com/title/tt0304141/?ref_=tt_rec_tt" target="_blank" >IMBD</a> </td>
+       
+    </tr>
+
+    <tr>
+            <td>Harry Potter and the Chamber of Secrets</td>
+            <td>Harry ignores warnings not to return to Hogwarts, only to find the school plagued by<br> a series of mysterious attacks and a strange voice haunting him.</td>
+            <td>Adventure, Family, Fantasy</td>
+            <td>2002</td>
+            <td> <img src="hp3.jpg" alt="hp3" width="100" height="100"> </td>
+            <td> <a href="https://www.imdb.com/title/tt0295297/?ref_=tt_rec_tt" target="_blank" >IMBD</a> </td>
+           
+        </tr> 
+        <tr>
+                    <td>Harry Potter and the Goblet of Fire</td>
+                    <td>A young wizard finds himself competing in a hazardous tournament between rival schools of <br>magic, but he is distracted by recurring nightmares.</td>
+                    <td>Adventure, Family, Fantasy</td>
+                    <td>2005</td>
+                    <td> <img src="hp4.jpg" alt="hp4" width="100" height="100"> </td>
+                    <td> <a href="https://www.imdb.com/title/tt0330373/?ref_=tt_rec_tt" target="_blank" >IMBD</a> </td>
+                   
+                </tr>
+        <tr>
+                <td>Harry Potter and the Order of the Phoenix</td>
+                <td>With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are<br> targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at<br> Hogwarts</td>
+                <td>Adventure, Family, Fantasy</td>
+                <td>2007</td>
+                <td> <img src="hp5.jpg" alt="hp5" width="100" height="100"> </td>
+                <td> <a href="https://www.imdb.com/title/tt0373889/?ref_=tt_rec_tt" target="_blank" >IMBD</a> </td>
+               
+            </tr>
+           
+</table>
+
+
+</div>
+<div id="task_4">
+ <form method="GET">
+<p>Job Application With Resume Upload </p>
+<br>
+<p>Contact Information</p>
+<br>
+<p>First Name*</p>
+<input type="text" required>
+<p>Last Name*</p>
+<input type="text" required>
+<p>Email*</p>
+<input type="email" required>
+<p>Phone*</p>
+<input type="tel" required>
+<h4>Position</h4>
+<p>Position you are applying for*</p>
+<select name="dropdown" id="dd"  >
+
+<option  value="val1">Backend NodeJS</option>
+<option value="val2">Backend Python</option>
+<option value="val3">Frontend React</option>
+<option selected value="val4">Frontend Angular</option>
+</select>
+<p>Resume upload</p>
+<input type="file">
+<p>Portofolio website</p>
+
+<input type="text">
+<p>Salary requirements</p>
+<input type="text">
+<p>When can you start?</p>
+<input type="text">
+<p>Are you wiling to relocate?</p>
+<input type="radio" name="test" value="yes"> Yes <br>
+<input type="radio" name="test" value="no"> No <br>
+<input type="radio" name="test" value="not"> Not sure <br>
+<p>Last company you worked for</p>
+<input type="text">
+<p>Comments</p>
+<textarea name="komentar" cols="30" rows="10"></textarea> <br>
+<button>Submit</button>
+</form>
+</div>
+
+
+</body>
+</html>
